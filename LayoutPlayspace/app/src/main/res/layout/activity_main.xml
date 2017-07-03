@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.datafrominternet.MainActivity">
+
+    <!--COMPLETED (6) Delete this TextView-->
+    <!--COMPLETED (7) Add an EditText-->
+    <!--COMPLETED (8) Give the EditText an id of @+id/et_search_box-->
+    <!--COMPLETED (9) Set the text size to 22sp-->
+    <!--COMPLETED (10) Set the width to match_parent and the height to wrap_content-->
+    <!--COMPLETED (11) Provide a hint telling the user to enter a query and then click search-->
+    <EditText
+        android:id="@+id/et_search_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe lo que buscas"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/tv_url_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Buscalo y verás!"
+        android:textSize="22sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/tv_github_search_results_json"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adelante!"
+            android:textSize="18sp" />
+    </ScrollView>
+</LinearLayout>
