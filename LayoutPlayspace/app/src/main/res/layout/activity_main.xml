@@ -5,14 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
     tools:context="com.example.android.datafrominternet.MainActivity">
 
-    <!--COMPLETED (6) Delete this TextView-->
-    <!--COMPLETED (7) Add an EditText-->
-    <!--COMPLETED (8) Give the EditText an id of @+id/et_search_box-->
-    <!--COMPLETED (9) Set the text size to 22sp-->
-    <!--COMPLETED (10) Set the width to match_parent and the height to wrap_content-->
-    <!--COMPLETED (11) Provide a hint telling the user to enter a query and then click search-->
     <EditText
         android:id="@+id/et_search_box"
         android:layout_width="match_parent"
